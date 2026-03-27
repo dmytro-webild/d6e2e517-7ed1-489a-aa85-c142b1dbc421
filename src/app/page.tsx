@@ -108,37 +108,37 @@ export default function LandingPage() {
           id: 1,
           title: "Spreadsheet UI",
           description: "Familiar rows and columns. No onboarding required.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=1",
         },
         {
           id: 2,
           title: "Live Tax Impact",
           description: "See savings as you type. HMRC rules built in.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=2",
         },
         {
           id: 3,
           title: "One-click HMRC Filing",
           description: "SA103 direct to HMRC via MTD API.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=3",
         },
         {
           id: 4,
           title: "MTD Ready",
           description: "Mandatory from April 2026 for high earners.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=4",
         },
         {
           id: 5,
           title: "Year-round Estimates",
           description: "Tax bill updates live, no January shock.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=5",
         },
         {
           id: 6,
           title: "Freelancer Focused",
           description: "Not accounting software. Tax software.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=6",
         },
       ]}
       title="Key Capabilities"
