@@ -28,17 +28,11 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Features",
-          id: "features",
-        },
+          name: "Features",          id: "features"},
         {
-          name: "Status",
-          id: "status",
-        },
+          name: "Status",          id: "status"},
       ]}
       brandName="taxable.tax"
     />
@@ -50,9 +44,7 @@ export default function LandingPage() {
       description="Tax like a spreadsheet. File like a pro. The only UK tax app that feels like Excel—with HMRC rules built in, live tax savings, and one-click SA103 filing."
       buttons={[
         {
-          text: "Notify me →",
-          href: "#",
-        },
+          text: "Notify me →",          href: "#"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-high-fidelity-minimalist-dark-mode-spr-1774575762388-e6633380.png"
     />
@@ -66,32 +58,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "q1",
-          value: "Fulfilled",
-          title: "Q1",
-          description: "Apr–Jul",
-          icon: CheckCircle,
+          id: "q1",          value: "Fulfilled",          title: "Q1",          description: "Apr–Jul",          icon: CheckCircle,
         },
         {
-          id: "q2",
-          value: "Submitted",
-          title: "Q2",
-          description: "Jul–Oct",
-          icon: CheckCircle,
+          id: "q2",          value: "Submitted",          title: "Q2",          description: "Jul–Oct",          icon: CheckCircle,
         },
         {
-          id: "q3",
-          value: "Open",
-          title: "Q3",
-          description: "Oct–Jan",
-          icon: AlertTriangle,
+          id: "q3",          value: "Open",          title: "Q3",          description: "Oct–Jan",          icon: AlertTriangle,
         },
         {
-          id: "q4",
-          value: "Pending",
-          title: "Q4",
-          description: "Jan–Apr",
-          icon: Clock,
+          id: "q4",          value: "Pending",          title: "Q4",          description: "Jan–Apr",          icon: Clock,
         },
       ]}
       title="Quarterly Status"
@@ -101,45 +77,28 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureCardSeven
+      animationType="blur-reveal"
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
         {
           id: 1,
-          title: "Spreadsheet UI",
-          description: "Familiar rows and columns. No onboarding required.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=1",
-        },
+          title: "Spreadsheet UI",          description: "Familiar rows and columns. No onboarding required.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
         {
           id: 2,
-          title: "Live Tax Impact",
-          description: "See savings as you type. HMRC rules built in.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=2",
-        },
+          title: "Live Tax Impact",          description: "See savings as you type. HMRC rules built in.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
         {
           id: 3,
-          title: "One-click HMRC Filing",
-          description: "SA103 direct to HMRC via MTD API.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=3",
-        },
+          title: "One-click HMRC Filing",          description: "SA103 direct to HMRC via MTD API.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
         {
           id: 4,
-          title: "MTD Ready",
-          description: "Mandatory from April 2026 for high earners.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=4",
-        },
+          title: "MTD Ready",          description: "Mandatory from April 2026 for high earners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
         {
           id: 5,
-          title: "Year-round Estimates",
-          description: "Tax bill updates live, no January shock.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=5",
-        },
+          title: "Year-round Estimates",          description: "Tax bill updates live, no January shock.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
         {
           id: 6,
-          title: "Freelancer Focused",
-          description: "Not accounting software. Tax software.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png?_wi=6",
-        },
+          title: "Freelancer Focused",          description: "Not accounting software. Tax software.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BVXDCCDOawS5wc0YHuVbRdxVcF/a-clean-modern-warning-symbol-for-tax-co-1774575762093-f6cd6ff4.png"},
       ]}
       title="Key Capabilities"
       description="Designed for sole traders who value efficiency and transparency."
@@ -150,42 +109,27 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Product",
-          items: [
+          title: "Product",          items: [
             {
-              label: "Features",
-              href: "#",
-            },
+              label: "Features",              href: "#"},
             {
-              label: "MTD Compliance",
-              href: "#",
-            },
+              label: "MTD Compliance",              href: "#"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "#",
-            },
+              label: "About",              href: "#"},
             {
-              label: "Contact",
-              href: "#",
-            },
+              label: "Contact",              href: "#"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy",
-              href: "#",
-            },
+              label: "Privacy",              href: "#"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
